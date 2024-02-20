@@ -1,8 +1,8 @@
 {
-	"name": "webpack-starter",
+	"name": "tracalorie-webpack",
 	"version": "1.0.0",
-	"description": "Boilerplate for creating apps with webpack",
-	"main": "index.js",
+	"description": "Tracalorie project refactored using webpack",
+	"main": "app.js",
 	"devDependencies": {
 		"css-loader": "^6.10.0",
 		"html-webpack-plugin": "^5.6.0",
@@ -17,5 +17,9 @@
 		"dev": "webpack serve"
 	},
 	"author": "Phillip",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.5.1",
+		"bootstrap": "^5.3.3"
+	}
 }
